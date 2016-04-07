@@ -10,10 +10,6 @@ router = new director.http.Router({
     post: bot.respond,
     get: ping
   }
-  '/' : {
-    post: bot.respond_1,
-    get: ping
-  }
 });
 
 server = http.createServer(function (req, res) {
