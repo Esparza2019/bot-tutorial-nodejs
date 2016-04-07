@@ -7,7 +7,7 @@ bot         = require('./bot.js');
 
 router = new director.http.Router({
   '/' : {
-    post: bot.respond, bot.respond_1
+    post: bot.respond, bot.respond_1,
     get: ping
   }
 });

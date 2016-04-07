@@ -52,7 +52,6 @@ function postMessage() {
   });
   botReq.end(JSON.stringify(body));
 }
-
 function respond_1() {
   var request = JSON.parse(this.req.chunks[0]),
       botRegex = /^\/tridents$/;
